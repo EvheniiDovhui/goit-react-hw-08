@@ -1,6 +1,7 @@
-import { useEffect, lazy } from 'react'
+import React, { useEffect, lazy } from 'react'
 import { useDispatch } from 'react-redux'
 import { Route, Routes } from 'react-router-dom'
+
 import Layout from './Layout'
 import PrivateRoute from './PrivateRoute'
 import RestrictedRoute from './RestrictedRoute'

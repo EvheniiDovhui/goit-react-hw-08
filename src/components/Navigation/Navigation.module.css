@@ -1,0 +1,21 @@
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.link {
+	text-decoration: none;
+	color: #333; /* Колір тексту посилань */
+	font-weight: bold;
+	margin-right: 1rem;
+	transition: color 0.3s ease; /* Плавний перехід кольору */
+}
+
+.link:hover {
+	color: #f50057; /* Колір тексту посилань при наведенні */
+}
+
+.active {
+	color: #f50057; /* Колір активного посилання */
+}

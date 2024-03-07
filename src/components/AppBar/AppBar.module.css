@@ -1,0 +1,71 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: #9ba8ac; /* змініть колір на ваш смак */
+	color: white; /* колір тексту */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* тінь для ефекту плавності */
+}
+
+/* Стилі для навігації */
+.navigation {
+	flex: 1; /* Займає доступний простір */
+}
+
+.navigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+	color: #ffc107; /* змініть колір при наведенні */
+}
+
+/* Стилі для UserMenu і AuthNav */
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu-item {
+	margin-right: 1rem;
+}
+
+.menu-item:last-child {
+	margin-right: 0;
+}
+
+.user-name {
+	color: #ffc107; /* колір для імені користувача */
+}
+
+/* Стилі для анімації */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.user-menu,
+.auth-nav {
+	animation: fadeIn 0.5s ease; /* анімація появи */
+}

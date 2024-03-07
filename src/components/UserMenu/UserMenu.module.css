@@ -1,0 +1,23 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.username {
+	font-weight: bold;
+	margin-right: 1rem;
+}
+
+.btn {
+	color: #f50057; /* Колір тексту кнопки */
+	border: 1px solid #f50057; /* Обрамлення кнопки */
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease; /* Плавний перехід колірних змін */
+}
+
+.btn:hover {
+	background-color: #f50057; /* Колір фону кнопки при наведенні */
+	color: #fff; /* Зміна кольору тексту при наведенні */
+}

@@ -39,7 +39,11 @@ const ContactForm = () => {
 		>
 			<Form className={css.form} autoComplete='off'>
 				<div className={css.formGroup}>
-					<label className={css.item} htmlFor={nameFieldId}>
+					<label
+						// className={css.item + ' ' + css.itemName}
+						className={`${css.item} ${css.itemName}`}
+						htmlFor={nameFieldId}
+					>
 						Name
 					</label>
 					<Field
@@ -47,7 +51,7 @@ const ContactForm = () => {
 						type='text'
 						name='name'
 						id={nameFieldId}
-						placeholder='Ivanov Ivan'
+						placeholder='Dean Winchester'
 					/>
 					<ErrorMessage className={css.error} name='name' component='span' />
 				</div>
@@ -61,7 +65,7 @@ const ContactForm = () => {
 						type='tel'
 						name='number'
 						id={numberFieldId}
-						placeholder='8888888'
+						placeholder='00000000'
 					/>
 					<ErrorMessage className={css.error} name='number' component='span' />
 				</div>

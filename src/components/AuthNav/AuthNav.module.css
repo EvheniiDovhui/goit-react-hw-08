@@ -1,0 +1,15 @@
+.link {
+	text-decoration: none;
+	color: #000000; /* Колір тексту */
+	font-weight: bold;
+	margin-right: 1rem;
+	transition: color 0.3s ease; /* Плавний перехід кольору */
+}
+
+.link:hover {
+	color: #ffc107; /* Колір тексту при наведенні */
+}
+
+.active {
+	color: #ffc107; /* Колір активного посилання */
+}

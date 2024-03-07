@@ -1,0 +1,53 @@
+.contact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	border-bottom: 1px solid #ccc; /* лінія розділу між контактами */
+}
+
+.text {
+	display: flex;
+	align-items: center;
+}
+
+.text p {
+	margin: 0;
+	margin-right: 1rem;
+}
+
+.btn {
+	color: #fff; /* колір тексту кнопки */
+	background-color: #f50057; /* колір кнопки */
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease; /* плавний перехід колірних змін */
+}
+
+.btn:hover {
+	background-color: #c51162; /* колір кнопки при наведенні */
+}
+
+.modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* тінь для модального вікна */
+	outline: none;
+}
+
+.modal h2 {
+	margin-bottom: 1rem;
+}
+
+.modal .btn {
+	margin-right: 1rem;
+}
+
+.modal .btn:last-child {
+	margin-right: 0;
+}

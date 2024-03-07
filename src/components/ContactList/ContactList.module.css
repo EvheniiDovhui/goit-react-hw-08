@@ -1,0 +1,21 @@
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.list li {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border-radius: 4px;
+	background-color: #f9f9f9; /* Колір фону елемента */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для створення ефекту плавності */
+}
+
+.list li:last-child {
+	margin-bottom: 0;
+}
+
+.list li:hover {
+	background-color: #e0e0e0; /* Колір фону при наведенні */
+}
